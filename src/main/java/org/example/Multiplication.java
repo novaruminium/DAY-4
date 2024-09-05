@@ -23,6 +23,5 @@ public class Multiplication
             }   //move to the next line after each row is printed.
             System.out.println();
         }
-        scan.close();
     }
 }

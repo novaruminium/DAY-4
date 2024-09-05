@@ -11,7 +11,7 @@ public class Main {
         System.out.println("2. Stacked Stars.");
         System.out.println("3. Input from Scanner.");
         System.out.println("4. Simple Game.");
-        System.out.println("5. Case Swap.");
+        System.out.println("5. Character Swap.");
         System.out.print("Enter choice: ");
         int a = scan.nextInt();
 
@@ -34,18 +34,19 @@ public class Main {
 
             case 4:
                 //Create a simple number guessing game.
-
+                Game.game();
 
                 break;
 
             case 5:
                 //Write a code to swap the case of each character from string.
-
+                CharSwap.charSwap();
                 break;
 
             default:
                 System.out.println("Invalid choice");
                 break;
         }
+        scan.close();
     }
 }

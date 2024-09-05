@@ -30,7 +30,5 @@ public class ContinuedNumber
 
         //Print the numbers entered by the user.
         System.out.println("Numbers entered: "+ numbers);
-
-        scan.close();
     }
 }
